@@ -1,410 +1,631 @@
-365-Day Roadmap to Become a Zoho DevOps Engineer
-Daily Routine (Monday–Friday)
-🌅 Morning (6:00–7:00 AM)
+# DevOps Engineer Roadmap (365 Days)
 
-Programming (Python)
+# Goal
 
-🌆 Evening (7:30–9:00 PM)
+Become a Production-Ready DevOps Engineer and prepare for Zoho DevOps Engineer interviews.
 
-DevOps Topic
+---
 
-🌙 Night (9:00–9:30 PM)
+# Skills to Master
 
-Revision + Notes
+* Linux
+* Bash Scripting
+* Python for DevOps
+* Git & GitHub
+* Networking
+* Nginx
+* Cloudflare
+* SSL / TLS
+* Docker
+* Kubernetes
+* AWS
+* Terraform
+* Ansible
+* Jenkins
+* GitHub Actions
+* Monitoring (Prometheus & Grafana)
+* Linux Security
+* Production Troubleshooting
+* DevOps Projects
+* Interview Preparation
+
+---
 
-Saturday
+# Daily Routine
 
-Project
-Mock Interview
+## Monday - Friday
 
-Sunday
+### Morning (1 Hour)
 
-Revision
-GitHub Documentation
-Phase 1 (Days 1–30)
-Linux Mastery
+* Python Programming
+* Automation Scripts
 
-Daily Topics
+### Evening (1.5 Hours)
 
-Day 1
+* DevOps Learning
 
-Linux installation
-File system
+### Night (30 Minutes)
 
-Day 2
+* Revision
+* Documentation
+* GitHub Update
 
-File permissions
+---
 
-Day 3
+## Saturday
 
-Users & Groups
+* Build Projects
+* Practice Interview Questions
+* Explore New DevOps Tools
 
-Day 4
+---
 
-Process Management
+## Sunday
 
-Day 5
+* Weekly Revision
+* Update GitHub Notes
+* Solve Real-world Problems
+* Improve Resume
 
-Cron Jobs
+---
 
-Day 6
+# 365-Day Learning Roadmap
 
-Services
+## Phase 1 (Days 1–30)
 
-Day 7
-Revision
+## Linux
 
-Week 2
+Topics
 
-grep
-awk
-sed
-find
-tar
-zip
-rsync
+* Linux Installation
+* Linux File System
+* File Permissions
+* Users & Groups
+* Process Management
+* systemctl
+* Services
+* Cron Jobs
+* SSH
+* SCP
+* SFTP
+* Disk Management
+* Package Management
+* Logs
+* Journalctl
+* Shell Basics
 
-Week 3
+Commands
 
-SSH
-SCP
-SFTP
-System Logs
-Journalctl
-
-Week 4
-
-Bash scripting basics
-
-Project
-
-Create user backup automation script
-Phase 2 (Days 31–60)
-
-Python for DevOps
-
-Daily
-
-Variables
-
-Functions
-
-Loops
-
-Modules
-
-Files
-
-JSON
-
-API requests
-
-Exception handling
-
-Logging
-
-Subprocess
-
-Project
-
-Python script that:
-
-Creates users
-Takes backups
-Monitors disk space
-Sends alerts
-Phase 3 (Days 61–90)
-
-Networking
-
-Daily
-
-OSI
-
-TCP/IP
-
-DNS
-
-HTTP
-
-HTTPS
-
-SSL
-
-Load Balancer
-
-Reverse Proxy
-
-VPN
-
-Firewall
-
-Project
-
-Deploy Nginx
-
-Configure Reverse Proxy
-
-SSL
-
-Domain
-
-Cloudflare
-
-(You already have practical experience here.)
-
-Phase 4 (Days 91–120)
-
-Git
-
-GitHub
-
-GitLab
-
-Git Flow
-
-Merge
-
-Rebase
-
-Cherry Pick
-
-Hooks
-
-Project
-
-Complete CI workflow
-
-Phase 5 (Days 121–150)
-
-Docker
-
-Daily
-
-Images
-
-Containers
-
-Volumes
-
-Networks
-
-Dockerfile
-
-Compose
-
-Registry
-
-Project
-
-Containerize:
-
-Node.js app
-React app
-MongoDB
-Phase 6 (Days 151–180)
-
-Kubernetes
-
-Pods
-
-ReplicaSets
-
-Deployments
-
-Services
-
-Ingress
-
-Secrets
-
-ConfigMaps
-
-Volumes
-
-Helm
-
-Project
-
-Deploy full application on Kubernetes
-
-Phase 7 (Days 181–210)
-
-AWS
-
-Daily
-
-IAM
-
-EC2
-
-EBS
-
-VPC
-
-Security Groups
-
-Route53
-
-S3
-
-CloudWatch
-
-ELB
-
-Auto Scaling
+* ls
+* pwd
+* cd
+* cp
+* mv
+* rm
+* mkdir
+* touch
+* chmod
+* chown
+* ps
+* top
+* htop
+* grep
+* find
+* awk
+* sed
+* tar
+* zip
+* unzip
+* rsync
+
+Mini Project
+
+Linux Health Check Script
+
+Interview Questions
+
+* Difference between Linux and Unix
+* What is inode?
+* What happens during Linux boot?
+* Explain systemctl.
+* Difference between process and thread.
+
+---
+
+## Phase 2 (Days 31–60)
+
+## Bash Scripting
+
+Topics
+
+* Variables
+* Loops
+* If Else
+* Case Statement
+* Functions
+* Arrays
+* File Handling
+* Cron Automation
+
+Projects
+
+* Backup Script
+* Log Cleanup Script
+* Disk Monitoring Script
+* User Creation Script
+
+Interview Questions
+
+* Difference between bash and sh
+* What is shebang?
+* Explain cron.
+
+---
+
+## Phase 3 (Days 61–90)
+
+## Python for DevOps
+
+Topics
+
+* Variables
+* Loops
+* Functions
+* Modules
+* File Handling
+* Exception Handling
+* JSON
+* REST API
+* Requests Module
+* Logging
+* subprocess
+* os
+* shutil
+
+Automation Projects
+
+* CPU Monitor
+* Memory Monitor
+* Disk Usage Checker
+* Service Monitor
+* User Creation
+* Log Analyzer
+* Backup Automation
+* AWS Automation using boto3
+
+Interview Questions
+
+* Why Python for DevOps?
+* Difference between list and tuple.
+* What are decorators?
+* Explain virtual environments.
+
+---
+
+## Phase 4 (Days 91–120)
+
+## Git & GitHub
+
+Topics
+
+* Git Basics
+* Clone
+* Commit
+* Push
+* Pull
+* Branch
+* Merge
+* Rebase
+* Cherry Pick
+* Reset
+* Revert
+* Git Flow
+* Pull Requests
+
+Interview Questions
+
+* Merge vs Rebase
+* Git Fetch vs Pull
+* Soft Reset vs Hard Reset
 
 Project
 
-Deploy production website on AWS
+Complete Git Workflow
 
-Phase 8 (Days 211–240)
+---
 
-CI/CD
+## Phase 5 (Days 121–150)
 
-Jenkins
+## Networking
 
-GitHub Actions
+Topics
 
-GitLab CI
+* OSI Model
+* TCP/IP
+* DNS
+* DHCP
+* HTTP
+* HTTPS
+* SSL
+* Reverse Proxy
+* Load Balancer
+* Firewall
+* VPN
+* CIDR
+* Subnetting
 
-Build
+Interview Questions
 
-Test
+* What happens when you open google.com?
+* Difference between HTTP and HTTPS.
+* Explain DNS resolution.
+* TCP vs UDP.
 
-Deploy
+---
 
-Rollback
+## Phase 6 (Days 151–180)
 
-Project
+## Nginx
 
-Automatic deployment pipeline
+Topics
 
-Phase 9 (Days 241–270)
+* Installation
+* Server Blocks
+* Reverse Proxy
+* Static Website Deployment
+* NodeJS Deployment
+* React Deployment
+* SSL
+* Redirects
+* Multiple Domains
+* Load Balancing
 
-Infrastructure as Code
+Common Production Issues
 
-Terraform
-
-Ansible
-
-Packer
-
-Project
-
-Provision AWS infrastructure using Terraform
-
-Phase 10 (Days 271–300)
-
-Monitoring
-
-Prometheus
-
-Grafana
-
-Loki
-
-AlertManager
-
-ELK
-
-Project
-
-Complete monitoring dashboard
-
-Phase 11 (Days 301–330)
-
-Security
-
-Linux Hardening
-
-Fail2Ban
-
-SSH Security
-
-Secrets
-
-Vault
-
-IAM Best Practices
-
-OWASP Basics
+* 502 Bad Gateway
+* 504 Gateway Timeout
+* SSL Errors
+* Redirect Loops
+* Permission Issues
 
 Project
 
-Secure Linux server
+Deploy Multiple Websites
 
-Phase 12 (Days 331–365)
+---
 
-Interview Preparation
+## Phase 7 (Days 181–210)
 
-Daily
+## Cloudflare
 
-1 hour
+Topics
 
-Linux Questions
+* DNS
+* Proxy
+* SSL Modes
+* WAF
+* Cache
+* Page Rules
 
-30 min
+Real-Time Issues
 
-Networking Questions
+* SSL Mismatch
+* DNS Propagation
+* Cache Problems
 
-30 min
+---
 
-Python Coding
+## Phase 8 (Days 211–240)
 
-30 min
+## SSL & Certbot
 
-AWS Questions
+Topics
 
-30 min
+* HTTPS
+* SSL Certificates
+* Let's Encrypt
+* Certbot
+* Renewal
+* SSL Chain
 
-Kubernetes Questions
+Projects
 
-Weekly
+* Secure Multiple Domains
+* Auto Renewal
 
-Mock Interview
+---
 
-Resume Update
+## Phase 9 (Days 241–270)
 
-GitHub Update
+## Docker
 
-LinkedIn Update
+Topics
 
-Daily Python Practice (365 Days)
+* Images
+* Containers
+* Dockerfile
+* Networks
+* Volumes
+* Docker Compose
+* Docker Hub
 
-Don't learn Python just to write programs. Learn it to automate DevOps work.
+Projects
 
-Examples:
+* Dockerize React Application
+* Dockerize Node Application
+* Dockerize MongoDB
+* Dockerize Full MERN Stack
 
-Rename 100 files
-Read server logs
-Parse JSON
-Check server health
-Monitor CPU
-Monitor RAM
-Monitor disk usage
-Send email alerts
-Restart failed services
-Query REST APIs
-Create AWS resources using SDKs (e.g., boto3)
-Projects to Build (One Every Month)
-Linux Health Checker
-Backup Automation
-Log Analyzer
-Nginx Auto Deployment
-Dockerized MERN Application
-Kubernetes Deployment
-Jenkins CI/CD Pipeline
-GitHub Actions Pipeline
-AWS Infrastructure using Terraform
-Prometheus + Grafana Monitoring
-Automated SSL Renewal Checker
-Production DevOps Portfolio
-Certifications (Optional)
+Interview Questions
 
-These can strengthen your profile, but practical skills matter more than collecting certificates.
+* Difference between Image and Container
+* What is Docker Compose?
+* Explain Volumes.
 
-AWS Certified Cloud Practitioner
-AWS Certified SysOps Administrator (or Solutions Architect Associate if you're interested in architecture)
-Docker Certified Associate (if available)
-Kubernetes certifications (CKA/CKAD) when you're comfortable with Kubernetes
+---
+
+## Phase 10 (Days 271–300)
+
+## Kubernetes
+
+Topics
+
+* Pods
+* ReplicaSets
+* Deployments
+* Services
+* ConfigMaps
+* Secrets
+* Volumes
+* Ingress
+* Helm
+
+Projects
+
+Deploy Full Application on Kubernetes
+
+Interview Questions
+
+* Pod vs Deployment
+* Service Types
+* ConfigMap vs Secret
+
+---
+
+## Phase 11 (Days 301–330)
+
+## AWS
+
+Topics
+
+* IAM
+* EC2
+* EBS
+* VPC
+* Security Groups
+* Route53
+* S3
+* CloudWatch
+* Load Balancer
+* Auto Scaling
+* Lambda
+
+Projects
+
+Deploy Production Website
+
+Interview Questions
+
+* EC2 vs Lambda
+* ALB vs NLB
+* IAM Roles vs Users
+
+---
+
+## Phase 12 (Days 331–365)
+
+## CI/CD
+
+Topics
+
+* Jenkins
+* GitHub Actions
+* GitLab CI
+* Build
+* Test
+* Deploy
+* Rollback
+
+Projects
+
+Automatic Deployment Pipeline
+
+---
+
+## Terraform
+
+Topics
+
+* Providers
+* Variables
+* Outputs
+* State
+* Modules
+
+Projects
+
+* Create EC2
+* Create VPC
+* Deploy Infrastructure
+
+---
+
+## Ansible
+
+Topics
+
+* Inventory
+* Playbooks
+* Roles
+* Variables
+
+Projects
+
+* Install Nginx
+* Create Users
+* Configure Servers
+
+---
+
+## Monitoring
+
+Topics
+
+* Prometheus
+* Grafana
+* Node Exporter
+* AlertManager
+* Loki
+* ELK Stack
+
+Projects
+
+Server Monitoring Dashboard
+
+---
+
+## Linux Security
+
+Topics
+
+* SSH Hardening
+* Firewall
+* Fail2Ban
+* IAM Best Practices
+* Secrets Management
+* OWASP Basics
+
+---
+
+# Monthly Projects
+
+1. Linux Health Checker
+2. Backup Automation
+3. Log Analyzer
+4. Nginx Reverse Proxy
+5. Dockerized MERN Stack
+6. Kubernetes Deployment
+7. Jenkins Pipeline
+8. GitHub Actions Pipeline
+9. AWS Infrastructure
+10. Terraform Deployment
+11. Monitoring Dashboard
+12. Production DevOps Portfolio
+
+---
+
+# Production Issues Documentation Template
+
+For every issue you solve at work, document it using this format:
+
+## Issue Title
+
+### Date
+
+### Project
+
+### Problem
+
+### Root Cause
+
+### Investigation Steps
+
+### Commands Used
+
+### Solution
+
+### Lessons Learned
+
+Examples
+
+* Nginx Reverse Proxy Issues
+* SSL Certificate Errors
+* Cloudflare SSL Problems
+* CORS Issues
+* PM2 Process Failures
+* Docker Container Failures
+* DNS Propagation Issues
+* Website Deployment Failures
+* AWS Security Group Issues
+
+---
+
+# Interview Preparation
+
+## Linux
+
+* 100 Interview Questions
+
+## Git
+
+* 50 Interview Questions
+
+## Networking
+
+* 100 Interview Questions
+
+## Nginx
+
+* 50 Interview Questions
+
+## Docker
+
+* 100 Interview Questions
+
+## Kubernetes
+
+* 150 Interview Questions
+
+## AWS
+
+* 200 Interview Questions
+
+## Terraform
+
+* 50 Interview Questions
+
+## Jenkins
+
+* 75 Interview Questions
+
+## Python
+
+* 100 Interview Questions
+
+---
+
+# Weekly Goals
+
+* Learn one new topic.
+* Build one small automation script.
+* Solve one real production issue.
+* Push updates to GitHub.
+* Revise previous topics.
+* Practice interview questions.
+
+---
+
+# Final Goal
+
+By the end of 365 days, I will be able to:
+
+* Confidently manage Linux servers.
+* Automate repetitive tasks using Bash and Python.
+* Build and manage CI/CD pipelines.
+* Deploy and manage applications with Docker and Kubernetes.
+* Design and manage AWS infrastructure.
+* Provision infrastructure using Terraform.
+* Configure monitoring and alerting.
+* Troubleshoot production issues effectively.
+* Demonstrate a strong GitHub portfolio with real-world DevOps projects and documentation.
+* Be well-prepared for DevOps Engineer interviews at Zoho and other product-based companies.
